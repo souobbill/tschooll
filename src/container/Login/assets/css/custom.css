@@ -1,0 +1,22 @@
+.header { padding: 1rem; position: absolute; left: 0; top: 0; width: 100%; }
+.header-logo { display: inline-block; width: 10rem; }
+
+.loginBox { padding: 11rem 1rem 5rem; min-height: 100%; display: flex; align-items: center; justify-content: center; }
+.loginBox__inner { text-align: center; }
+.loginBox__title { padding: 0rem 0 2.5rem; color: #ffffff; font-size: 2.85rem; line-height: 3.5rem; }
+.loginBox__btn-wrapper { text-align: center; }
+.loginBox__btn { margin: 0.75rem; padding: 0.5rem 1.5rem 0.5rem 0.5rem; transition: all 0.3s; cursor: pointer; white-space: nowrap; min-width: 21rem; font-size: 1.5rem; border: medium none; border: 0.3125rem solid rgba(0,0,0,0.3); border-radius: 5rem; display: inline-block; }
+.loginBox__btn img { display: inline-block; width: 2.25rem; vertical-align: middle; margin-right: 1.25rem; }
+.loginBox__btn span { display: inline-block; vertical-align: middle; }
+.loginBox__btn:hover, .loginBox__btn:focus { border-color: rgba(255,255,255,0.3); outline: none; }
+
+.footer { padding-top: 0.75rem; position: fixed; left: 0; bottom: 0; width: 100%; display: flex; align-items: center; justify-content: center; min-height: 5rem; background: rgba(0,0,0,0.3); text-align: center; color: #ffffff; }
+.footer-copyright { font-weight: 300; font-size: 1rem; color: #ffffff; }
+.footer-copyright span { padding: 0 0 0.5rem 0; display: block; }
+.footer-copyright a { text-decoration: none; color: #ffffff; }
+
+@media only screen and (min-width: 991px) {
+    .footer-copyright span { padding: 0 2.5rem; display: inline-block; }
+    .header { padding: 2rem 2.15rem; }
+    .loginBox { padding: 15rem 2rem 5rem; }    
+}

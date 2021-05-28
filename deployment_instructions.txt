@@ -1,0 +1,5 @@
+1. Unzip the file
+2. Go into student-schedular folder
+3. Run "npm install" to install all dependencies
+4. To start project, run "npm start"
+5. API address is save as constant named "SERVER_ADDRESS" in student-schedular/src/services/routes.js
